@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -53,13 +55,13 @@ body{
 .nav-link{
     text-decoration: none;
     color: #000000;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .Join-btn{
     background-color: #000;
     color: #fff;
-    font-weight: bold;
+    font-weight: 700;
     padding: 0.5rem 1.5rem;
     border-radius: 0.5rem ;
     cursor: pointer;
@@ -134,30 +136,35 @@ body{
 
 .hero-section h1{
     font-size: 60px;
-    font-weight:900;
-    background: -webkit-linear-gradient(270.1deg, #3783F6 0.1%, #02CBDE 41.42%, #5F0FCD 101.92%);
+    font-weight: 700;
+    background-image: linear-gradient(270.1deg, #3783F6 0.1%, #02CBDE 41.42%, #5F0FCD 101.92%);
+    background-clip: text;
+    background-size: 100%;
     -webkit-background-clip: text;
+    -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
-    padding:30px 10px;
+    -moz-text-fill-color: transparent;
 }
 
 .hero-section span {
-    font-weight: 100;
+    font-weight: 200;
     font-style: italic;
     font-size: 60px;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color:black;
+    color: black;
+    -webkit-text-fill-color: black;
+    -moz-text-fill-color: black;
 }
 
 .hero-section p{
     font-size:20px;
-    font-weight: 100;
+    font-weight: 400;
     padding:40px 55px;
-    line-height: 1.5rem;
+    line-height: 1.75rem;
 }
 
 .hero-section button{
     background-color:#000;
+    font-size: 15px;
     color:white;
     border-radius: 25px;
     padding:20px 40px;
@@ -167,7 +174,7 @@ body{
 .hero-section button:hover,
 .hero-section button:focus{
     background-image: linear-gradient(270.1deg, #3783F6 0.1%, #02CBDE 41.42%, #5F0FCD 101.92%);
-    box-shadow: 0 0.5em 0.5em -0.3em black;
-    transform: translateY(-0.25em);
-    transition: transform 0.1s;
+    box-shadow: 0 0.5rem 0.5rem -0.3rem rgba(0, 0, 0, .4);
+    transform: translateY(-0.4em);
+    transition: all 0.2s ease;
 }
